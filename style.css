@@ -1,0 +1,234 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins&display=swap';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --green: #449930;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.container .menu {
+    grid-column: 2/7; 
+
+}
+
+.container .menu h1 {
+    font-family: 'poppins';
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    top: 40px;
+    left: 20px;
+    color: var(--green);
+}
+
+.container .menu h2 {
+    font-family: 'poppins';
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -20px;
+    right: 20px;
+    color: var(--green);
+}
+
+
+.container .login {
+    display: grid;
+    grid-column: 3/6;
+    grid-row: 2/5;
+    text-align: center;
+    border: 1px solid var(--green);
+    position: relative;
+    top: 50px;
+}
+
+.container .login h1 {
+    font-family: 'poppins';
+    color: var(--green);
+    position: relative;
+    top: 20px;
+}
+
+.login .user p,
+.login .pass p {
+    font-family: 'poppins';
+    font-size: 20px;
+    text-align: center;
+    color: var(--green);
+}
+
+.login .user input,
+.login .pass input {
+    font-family: 'poppins';
+    font-size: 20px;
+    text-align: center;
+}
+
+.login .boton-ingresar input {
+    padding: 5px 20px;
+    font-family: 'poppins';
+}
+
+.login .boton-ingresar input:hover {
+    color: white;
+    background-color: var(--green);
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    border: 2px solid var(--green);
+
+}
+
+.logo-empresarial {
+    display: grid;
+    grid-column: 3/6;
+    grid-row: 6/9;
+    text-align: center;
+}
+
+.logo-empresarial h1 {
+    font-family: 'poppins';
+}
+
+
+.container .opciones {
+    display: grid;
+    grid-column: 3/6;
+    grid-row: 2/5;
+    text-align: center;
+    border: 1px solid var(--green);
+    position: relative;
+    top: 50px;
+}
+
+.container .opciones h1 {
+    font-family: 'poppins';
+    margin: 30px;
+    color: var(--green);
+}
+
+.opciones .turno {
+    position: relative;
+    top: -40px;
+}
+
+.opciones .turno input {
+    padding: 10px 34px;
+    font-size: 20px;
+}
+
+.opciones .cosecha {
+    position: relative;
+    top: -30px;
+}
+
+.opciones .cosecha input {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.opciones .turno input:hover,
+.opciones .cosecha input:hover {
+    color: white;
+    background-color: var(--green);
+    border: 2px solid var(--green);
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+.container .info-turno {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 2/5;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border: 1px solid var(--green);
+}
+
+.info-turno h1 {
+    font-family: 'poppins';
+}
+
+.container .reg-turno {
+    display: grid;
+    grid-column: 5/7;
+    grid-row: 2/5;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    border: 1px solid var(--green);
+}
+
+.reg-turno h1 {
+    font-family: 'poppins';
+}
+
+.reg-turno .registro p {
+    font-family: 'poppins';
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.reg-turno .registro select {
+    font-family: 'poppins';
+    font-size: 15px;
+    padding: 5px 30px;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.reg-turno .boton-turno input {
+    font-family: 'poppins';
+    padding: 5px 20px;
+    position: relative;
+    top: -50px;
+}
+
+.boton-turno input:hover {
+    color: white;
+    background-color: var(--green);
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    border: 2px solid var(--green);
+}
+
+.container .cosecha {
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 2/8;
+}
+
+.cosecha .detalle {
+    border: 1px solid var(--green);
+    position: relative;
+    right: 150px;
+    top: 50px;
+
+}
+
+.cosecha .formulario {
+    border: 1px solid var(--green);
+    position: relative;
+    left: 350px;
+    top: -259px;
+}
